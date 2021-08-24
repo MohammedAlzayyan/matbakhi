@@ -1,0 +1,866 @@
+{
+  "users": [
+    {
+      "name": "Mario Batali",
+      "email": "Mario@test.com",
+      "password": "Mario@123456",
+      "gender": "male",
+      "image": "https://png.pngtree.com/png-clipart/20190520/original/pngtree-chef-male-chef-cooking-making-pizza-png-image_3801993.jpg",
+      "id": 1
+    },
+    {
+      "name": "James Beard",
+      "email": "James@test.com",
+      "password": "James@123456",
+      "gender": "male",
+      "image": "https://png.pngtree.com/png-clipart/20210815/original/pngtree-banner-male-chef-illustration-png-image_6641189.jpg",
+      "id": 2
+    },
+    {
+      "name": "Julia Child",
+      "email": "Julia@test1.com",
+      "password": "Julia@123456",
+      "gender": "female",
+      "image": "https://png.pngtree.com/png-clipart/20190617/original/pngtree-food-cooking-chef-cooking-png-image_3889647.jpg",
+      "id": 3
+    },
+    {
+      "name": "Paul Haeberlin",
+      "email": "Paul@test1.com",
+      "password": "Paul@123456",
+      "gender": "male",
+      "image": "https://png.pngtree.com/png-clipart/20190617/original/pngtree-food-cooking-hotel-chef-png-image_3889575.jpg",
+      "id": 4
+    },
+    {
+      "name": "Jamie Oliver",
+      "email": "Jamie@test1.com",
+      "password": "Jamie@123456",
+      "gender": "male",
+      "image": "https://png.pngtree.com/png-clipart/20210509/original/pngtree-chef-cooking-saying-excellent-super-profession-concept-png-image_6271734.jpg",
+      "id": 5
+    },
+    {
+      "name": "Pierre Franey",
+      "email": "Pierre@test1.com",
+      "password": "Pierre@123456",
+      "gender": "male",
+      "image": "https://png.pngtree.com/png-clipart/20210418/original/pngtree-chef-cartoon-cartoon-chef-chef-occupation-png-image_6245382.jpg",
+      "id": 6
+    },
+    {
+      "name": "Edna Lewis",
+      "email": "Edna@test1.com",
+      "password": "Edna@123456",
+      "gender": "female",
+      "image": "https://png.pngtree.com/png-clipart/20190617/original/pngtree-food-cooking-female-chef-cooking-png-image_3889655.jpg",
+      "id": 7
+    },
+    {
+      "name": "Aisha Radi",
+      "email": "Aisha@test1.com",
+      "password": "Aisha@123456",
+      "gender": "female",
+      "image": "https://png.pngtree.com/png-clipart/20210530/original/pngtree-muslim-white-clothes-female-chef-png-image_6331899.jpg",
+      "id": 8
+    },
+    {
+      "name": "Keith Floyd",
+      "email": "Keith@test1.com",
+      "password": "Keith@123456",
+      "gender": "male",
+      "image": "https://png.pngtree.com/png-clipart/20190515/original/pngtree-chef-cooking-fried-chicken-and-delicious-sign-png-image_3635466.jpg",
+      "id": 9
+    }
+  ],
+  "categories": [
+    {
+      "items_ids": [
+        25,
+        26,
+        27
+      ],
+      "name": "Sea Food",
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_8JCI2TMpA2cdJ0KrEvgEuljd09FJTRqnyA&usqp=CAU",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Soups",
+      "items_ids": [
+        24,
+        23,
+        22
+      ],
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgfQoAszh8qZQmF_ZF8GhpEny2pVjPULrYrw&usqp=CAU"
+    },
+    {
+      "items_ids": [
+        21,
+        20,
+        19,
+        18,
+        17
+      ],
+      "name": "Chicken",
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU8XLzljNJ0N1McvEkAqi7Z_NpEdklPMJ9lA&usqp=CAU",
+      "id": 3
+    },
+    {
+      "items_ids": [
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "name": "Pastries",
+      "imageURL": "https://d3rctclhuobtt7.cloudfront.net/Pictures/480xany/3/4/8/197348_20231.photo.2.jpg",
+      "id": 4
+    },
+    {
+      "items_ids": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "name": "Salad",
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLTCbxnMpH74aitD8jsNN5uBUvDU0mFRMg1A&usqp=CAU",
+      "id": 5
+    },
+    {
+      "items_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "name": "Candies",
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_0QGTtSGIAYQ8SZMlghGhSsKenR5BfU6xTg&usqp=CAU",
+      "id": 6
+    }
+  ],
+  "itemsRecipes": [
+    {
+      "steps": [
+        "Beat sugar, butter and almond extract in a bowl with an electric mixer until creamy and fluffy.",
+        "Add flour and almonds and mix until a dough is formed.",
+        "Gather the dough, put it in plastic wrap, and put it in the fridge for two hours.",
+        "Heat the oven at 150 degrees.",
+        "stepRoll out the cookie dough on a floured surface and cut into slices as desired.3",
+        "Put the biscuits on a tray lined with parchment paper and put them in the oven for 25 minutes until they are done.",
+        "Remove the biscuits from the oven and leave them for 10 minutes, then serve them warm or cold as desired."
+      ],
+      "ingredients": [
+        "Butter: a cup",
+        "Sugar: half a cup",
+        "Almond extract: 2 teaspoons",
+        "Almonds: ¼ cup (chopped very fine)",
+        "Flour: two and a quarter cups (sifted)"
+      ],
+      "name": "Quick Healthy Hiscuits",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/b5/b5caa3e865c4273ba148e87471f9c9bb_w750_h500.jpg",
+      "category_id": 6,
+      "user_id": 1,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 1
+    },
+    {
+      "steps": [
+        "In a bowl, sift the flour, cocoa, salt, baking powder and baking soda, and set aside the dry ingredients.",
+        "In an electric mixer, beat the butter with the two types of sugar to get a fluffy and creamy mixture, at least whisking for 5 minutes (a very important step).",
+        "Add eggs and vanilla and beat well.",
+        "Add the dry ingredients and stir.",
+        "Add the chocolate chips and mix with a spoon, the mixture will be somewhat sticky, so don't worry.",
+        "Put the mixture into the refrigerator to rest for 30 minutes.",
+        "Divide the mixture with a tablespoon into balls and place on short-rimmed trays lined with parchment paper.",
+        "Put the tray into a preheated oven at 180°C and bake the cookies for 20 minutes.",
+        "Leave the cookies to cool, then serve"
+      ],
+      "ingredients": [
+        "Flour: 2 cups",
+        "Baking powder: a teaspoon",
+        "Salt: a teaspoon",
+        "Eggs: 1 piece",
+        "Egg white: 1 piece",
+        "Butter: 1 cup (room temperature)",
+        "Brown sugar: half a cup",
+        "Sugar: ½ cup (white)",
+        "Vanilla extract: a tablespoon",
+        "Sodium bicarbonate: half a teaspoon",
+        "Chocolate chips: one and a half cups"
+      ],
+      "name": "Easy and delicious chocolate cookies",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/14/14557a1c3b1f9dcd960b5bfa1e09962d_w750_h500.jpg",
+      "category_id": 6,
+      "user_id": 2,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 2
+    },
+    {
+      "steps": [
+        "Mix the flour and semolina in a large bowl.",
+        "In a second bowl, beat the butter, then gradually add the flour mixture with the yeast and beat again.",
+        "Add the mixed spices, milk and rose water and mix again until a cohesive dough is formed.",
+        "Place the dough in a greased bowl and leave in a warm place to double in size for about 5 hours.",
+        "In a small bowl, mix the pistachios and sugar.",
+        "Divide the dough into small balls.",
+        "Take each ball and put a spoonful of the filling inside it and then close it as you like or use the maamoul molds.",
+        "Bake the maamoul in an oven tray for about 20 minutes, until golden.",
+        "Garnish with icing sugar, then serve."
+      ],
+      "ingredients": [
+        "Flour: 2 cups",
+        "Semolina: a cup",
+        "Butter: 200 g (unsalted, soft)",
+        "Mixed spices: half a teaspoon",
+        "Rose water: a quarter of a teaspoon",
+        "Sugar: two and a half tablespoons (white)",
+        "Pistachio: 1/4 cup (crushed)",
+        "Yeast: a teaspoon",
+        "Powdered sugar: to taste (for decoration)"
+      ],
+      "name": "Pistachio Maamoul the Lebanese way",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/7f/7fc3a97ed5d6a594f3664a90f454df03_w750_h500.jpg",
+      "category_id": 6,
+      "user_id": 4,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 3
+    },
+    {
+      "steps": [
+        "Heat the oven to 350 degrees Celsius.",
+        "Prepare a cake pan by greasing it with butter and flour.",
+        "Mix the flour, cocoa powder, baking powder, baking soda, salt and sugar in a bowl, then mix them well until the air comes out of it.",
+        "Add the butter and cream and beat with a whisk on low speed for a minute or two until the mixture resembles crumbs.",
+        "Add oil and whisk.",
+        "Start by mixing the vanilla with milk and water and add the mixture to the flour mixture, butter and oil and whisk for two minutes until the ingredients are homogeneous.",
+        "Add eggs one at a time, beating on medium speed until combined.",
+        "Pour the mixture into the prepared cake tray and put it in the oven for 30 minutes or until the cake is done.",
+        "Remove the cake from the oven and let it cool for 10 minutes, then place it on a serving plate.",
+        "You can decorate with a sprinkle of powdered sugar and fresh fruits as desired and serve it warm or cold."
+      ],
+      "ingredients": [
+        "Flour: two and a half cups",
+        "Baking soda: half a teaspoon",
+        "Baking powder: 2 teaspoons",
+        "Cocoa powder: three quarters of a cup",
+        "Cream: mould (small)",
+        "Sugar: a cup and a half",
+        "Butter: ½ cup (soft)",
+        "Vegetable oil: a third of a cup",
+        "Vanilla: a tablespoon",
+        "Milk: a cup",
+        "Hot water: half a cup",
+        "Eggs: 4 grains"
+      ],
+      "name": "Cream and cocoa cake",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/a2/a22722a0b6d5e212ededdc6c9c815542_w750_h500.jpg",
+      "category_id": 6,
+      "user_id": 6,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 4
+    },
+    {
+      "steps": [
+        "Heat the oven to 180 degrees Celsius.",
+        "Melt the chocolate over a water bath until smooth and set aside.",
+        "Beat the eggs well with the vanilla and fructose with a whisk for 5 minutes.",
+        "Gradually add the melted chocolate and stir, then add the oil, flour and salt, whisking continuously until the ingredients are homogeneous.",
+        "Add the walnuts and mix with a wooden spoon until the ingredients are combined.",
+        "Grease a square tray with canola oil and pour the brownie mixture into it.",
+        "Put the tray in the oven and leave for about 25 minutes or until the brownies are done.",
+        "Remove the tray from the oven and cut it into equal squares, then serve it hot or cold."
+      ],
+      "ingredients": [
+        "Flour: cup",
+        "Chocolate: 200 g (dark and chopped)",
+        "Eggs: 4 grains",
+        "Sugar: a third of a cup",
+        "Canola oil: half a cup",
+        "Vanilla: a teaspoon ",
+        "Salt: a pinch",
+        "Walnuts: ¼ cup (coarsely chopped)"
+      ],
+      "name": "keto brownies",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/19/19aa5d0ea43fcf257b4491920e220106_w750_h500.jpg",
+      "category_id": 6,
+      "user_id": 7,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 5
+    },
+    {
+      "steps": [
+        "In a bowl, put the flour, yeast, sugar, salt, chicken flour and powdered milk.",
+        "Mix the dry ingredients well.",
+        "Pour the oil and water and mix with a hand mixer until the ingredients are well combined.",
+        "Leave the dough to rest for 30 minutes.",
+        "Heat the skillet well over medium heat.",
+        "Take a small plastic bottle and make a small hole in the cap.",
+        "Put the dough in the bottle and close it.",
+        "Pour the qatayef into the pan the size you want.",
+        "Leave the dough to brown from the bottom and dry its face from the top.",
+        "Drain the dough on a clean kitchen towel until it is filled."
+      ],
+      "ingredients": [
+        "Flour: 2 cups",
+        "Yeast: a teaspoon and a half",
+        "Flour: a tablespoon (farkha or semolina)",
+        "Powdered milk: a tablespoon",
+        "Oil: half a cup",
+        "Water: 2 cups ",
+        "Sugar: a tablespoon",
+        "Salt: a pinch"
+      ],
+      "name": "Basic Qatayef dough",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/ad/adab312896d1169e0b396dfc979dbe1c_w750_h500.jpg",
+      "category_id": 6,
+      "user_id": 7,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 6
+    },
+    {
+      "steps": [
+        "Boil the pasta and broccoli one at a time, then put them together after filtering.",
+        "Add cheddar cheese cut into cubes, tomatoes and olives.",
+        "To prepare the sauce: Mix the lemon, olive oil, basil and salt well, then add the sauce to the pasta and serve."
+      ],
+      "ingredients": [
+        "Lemon juice: 3 tablespoons",
+        "Basil: a tablespoon",
+        "Olive oil: 2 tablespoons",
+        "Salt: a pinch",
+        "Macaroni: 100 grams (spiral)",
+        "Sausage: 150 grams",
+        "Cheddar cheese: 100 grams"
+      ],
+      "name": "Sausage and pasta salad",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/1f/1fec3e5a59d82e02de3d6deb8e6a0301_w750_h500.jpg",
+      "category_id": 5,
+      "user_id": 2,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 7
+    },
+    {
+      "steps": [
+        "Finely chop the tomatoes, bell peppers, onions and green peppers, one at a time.",
+        "Put the vegetables in a bowl, and stir until combined.",
+        "Add the cumin, coriander and lemon juice, and season with salt and black pepper, and stir the ingredients until they overlap.",
+        "Introduce power to your travels."
+      ],
+      "ingredients": [
+        "Tomato: a cup",
+        "Green bell pepper: 2 tablespoons",
+        "Onions: a third of a cup",
+        "Hot green pepper: a teaspoon",
+        "Cumin: a quarter of a teaspoon",
+        "Salt: a quarter of a teaspoon",
+        "Black pepper: a quarter of a teaspoon",
+        "Green coriander: ½ tablespoon (finely chopped)",
+        "Lemon juice: a tablespoon (acid)"
+      ],
+      "name": "Spicy vegetable salad",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/7f/7fb865f94dfd7b06dca3b7cc107b59e6_w750_h500.jpg",
+      "category_id": 5,
+      "user_id": 5,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 8
+    },
+    {
+      "steps": [
+        "Put the potato cubes in a pot on the stove and cover them with water.",
+        "Leave the potatoes for 10 minutes to soften, then put them in a colander to get rid of the liquid.",
+        "In a medium-sized bowl, place the potatoes, oil, garlic, lemon juice and parsley.",
+        "Season with salt and black pepper and mix gently until combined.",
+        "Pour the potato salad into a serving dish, put it in the refrigerator for about an hour, then serve."
+      ],
+      "ingredients": [
+        "Potatoes: 2 tablets (cut into cubes)",
+        "Garlic: clove (crushed)",
+        "Parsley: ½ cup (finely chopped)",
+        "Olive oil: 2 tablespoons",
+        "Salt, to taste",
+        "Black pepper to taste",
+        "Lemon juice: 2 teaspoons",
+        "Green coriander: ½ tables"
+      ],
+      "name": "Boiled potato salad",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/e4/e4dd8d3be1401e258ea161e3df24455b_w750_h500.jpg",
+      "category_id": 5,
+      "user_id": 8,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 9
+    },
+    {
+      "steps": [
+        "Arrange the lettuce in a large plate.",
+        "Add quinoa and chopped red pepper.",
+        "Season with salt, oil and lemon juice, stir and serve immediately."
+      ],
+      "ingredients": [
+        "Quinoa: half a cup (boiled)",
+        "Iceberg lettuce: 1 cup (coarsely chopped)",
+        "Red pepper: 1 piece (finely cubed)",
+        "Olive oil: a tablespoon",
+        "Salt: half a teaspoon",
+        "Lemon juice: 2 tablespoons"
+      ],
+      "name": "Quinoa salad with lettuce",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/5b/5bd0a16f20dfa2f743baebdb962c1ccb_w750_h500.jpg",
+      "category_id": 5,
+      "user_id": 9,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 10
+    },
+    {
+      "steps": [
+        "Boil the peas and carrots in water and the stock cube for 10 minutes, then drain and put on a plate.",
+        "Add the tuna, corn, black pepper, lemon juice and olive oil, mix and serve."
+      ],
+      "ingredients": [
+        "Tuna: can (drained)",
+        "Peas and carrots: can (frozen)",
+        "Corn: ½ cup (canned, washed and drained)",
+        "Olive oil: a tablespoon",
+        "Vegetable broth: cube",
+        "Black pepper: half a teaspoon",
+        "Lemon juice: a tablespoon"
+      ],
+      "name": "Tuna salad with peas and carrots",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/72/72761831fa4900b354a7b0b2d34ad38a_w750_h500.jpg",
+      "category_id": 5,
+      "user_id": 9,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 11
+    },
+    {
+      "steps": [
+        "Put the minced meat in a skillet over medium heat and stir until brown.",
+        "Add the onion, garlic and salt, and stir-fry for 10 minutes, until the meat is tender.",
+        "Distribute an amount of filling in the puff pastry pieces and close them in the form of a triangle or squares as desired.",
+        "Grease the face of the dough with a brush with milk and sprinkle with sesame and nigella.",
+        "Grease the oven dish with oil and put the Vermosa in the dish and put it in the oven at 180 degrees for 15 minutes until it is cooked and browned.",
+        "Serve hot with yoghurt sauce, if desired."
+      ],
+      "ingredients": [
+        "Puff pastry dough : a package (small squares)",
+        "Minced meat: 350 grams",
+        "Onion: 1 piece (chopped very fine)",
+        "Garlic: clove (crushed)",
+        "Green coriander: 1 tablespoon (chopped)",
+        "Salt: half a teaspoon",
+        "Mixed spices: a quarter of a teaspoon",
+        "Sesame: a tablespoon",
+        "Nigella sativa: a tablespoon",
+        "Milk: 2 tablespoons (liquid)",
+        "Vegetable oil: 2 tablespoons"
+      ],
+      "name": "Saudi Fermoza with puff pastry dough",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/26/2676a79f3fb752ae266f56bedefff8f0_w750_h500.jpg",
+      "category_id": 4,
+      "user_id": 1,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 12
+    },
+    {
+      "steps": [
+        "Sift the flour, add the milk and yeast and mix the ingredients.",
+        "Add salt and sugar to the flour and mix again.",
+        "Add the oil and mix it with the flour by hand, then start adding lukewarm water gradually while kneading until we get a soft and cohesive dough.",
+        "Cover the dough with a clean towel and leave it to ferment for at least an hour in a warm place.",
+        "Shape the dough into a circular shape using the hand, or spread it out and cut it using a circular mold.",
+        "Heat a large amount of oil and fry the bread in it until golden brown."
+      ],
+      "ingredients": [
+        "White flour: 1 kilo",
+        "Yeast: 4 tablespoons",
+        "Milk: 4 tablespoons (dried)",
+        "Oil: half a cup",
+        "Water: 2 cups",
+        "Salt: 2 tablespoons",
+        "Sugar: a tablespoon"
+      ],
+      "name": "Merchant pocket dough",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/c4/c4eb1c398f5e3ba1bb40da779d6c667f_w750_h500.jpg",
+      "category_id": 4,
+      "user_id": 3,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 13
+    },
+    {
+      "steps": [
+        "Mix the flour with yeast, rosemary and milk, then dig in the middle of the dough, add the oil, then mix the flour with the oil well, then slowly add the water and start kneading until the dough becomes soft and formable.",
+        "Leave the dough for an hour until it rises and is ready to use.",
+        "Divide the dough into 20 balls, and roll each ball into a strip lengthwise with a rolling pin, then place one piece of sausage and roll the dough strip onto each piece in a spiral.",
+        "After they are done, put them in a greased tray and wipe the face of each piece with eggs and put them in the oven for 30 minutes or until they are cooked and browned on top."
+      ],
+      "ingredients": [
+        "Sausages: 20 pieces (beef)",
+        "Flour: 2 cups",
+        "Yeast: a tablespoon",
+        "Rosemary: a tablespoon",
+        "Powdered milk: 1 tablespoon (skimmed)",
+        "Warm water: a cup",
+        "Eggs: 1 piece (scrambled)"
+      ],
+      "name": "How to make sausage patties",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/c2/c28ce354f6a2cda3a867ef8fdb28a454_w750_h500.jpg",
+      "category_id": 4,
+      "user_id": 6,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 14
+    },
+    {
+      "steps": [
+        "Put the following ingredients in a mixing bowl: flour, sugar, salt, oil and yeast.",
+        "Add water and mix the ingredients well until you get a cohesive dough.",
+        "Cover the dough and set it aside until it ferments.",
+        "Roll out the dough and use it to make meat with dough recipes."
+      ],
+      "ingredients": [
+        "Flour: 3 cups",
+        "Yeast: half a tablespoon",
+        "Warm water: as needed",
+        "Salt: a pinch",
+        "Sugar: a teaspoon",
+        "Olive oil: 2 tablespoons"
+      ],
+      "name": "Meat with easy dough",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/e7/e77a883e5b375738c7ceade6470999a8_w750_h500.jpg",
+      "category_id": 4,
+      "user_id": 8,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 15
+    },
+    {
+      "steps": [
+        "Dissolve the yeast with warm water and 1 teaspoon of sugar in a small dish and set aside until frothy.",
+        "Dissolve two tablespoons of sugar in warm milk in a small dish, put the flour in a deep bowl, add the mixture of yeast, milk and oil, mix the ingredients together well and knead until a smooth dough is formed.",
+        "Put the dough in a large dish, cover the dish and leave it in a warm place for about 3 hours, until it ferments and doubles in size.",
+        "Start kneading the dough with your hands again and leave it aside for another 3 hours to ferment and double in size again, then turn the dough and knead it again.",
+        "Roll out the butter until it becomes flexible and soft, but without melting completely and turns into oil and forming a rectangle, then roll the dough into a medium-sized rectangle and put the butter on two-thirds of the area of ​​the dough rectangle while leaving its edges without placing the butter on top of it.",
+        "Roll the ungreased part of the dough over the middle third of the dough and roll the third third over it and flatten it.",
+        "Sprinkle a little flour on the croissant and put it in a plastic bag, put the bag in the refrigerator and leave it for about two hours.",
+        "Take the dough out of the fridge and fold it over one another and roll it out again, then return it to the fridge and leave it for an additional two hours. Then we take the dough out of the fridge and roll it out again, divide it, and shape it into a croissant shape.",
+        "We start by beating the egg with a tablespoon of water in a small bowl and brushing the surface of the croissant with the egg white. Preheat the oven to 245°C and bake the croissants in the preheated oven for 15 minutes, then remove the croissants from the oven and arrange them in a suitable dish for serving and serving warm."
+      ],
+      "ingredients": [
+        "Yeast: a teaspoon and a quarter (dry)",
+        "Warm water: 3 tablespoons",
+        "Sugar: 1 teaspoon (white / to dissolve the yeast)",
+        "Flour: a cup and three quarters of a cup",
+        "Sugar: 2 teaspoons (white)",
+        "Salt: one and a half teaspoons",
+        "Milk: two thirds of a cup (warm)",
+        "Butter: two thirds of a cup (unsalted)",
+        "Vegetable oil: 2 tablespoons",
+        "Eggs: 1 piece",
+        "Water: 1 tablespoon (extra amount)"
+      ],
+      "name": "Easy mini croissant",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/ec/ec4a21bbf83645e708f70b7542cb0a04_w750_h500.jpg",
+      "category_id": 4,
+      "user_id": 9,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 16
+    },
+    {
+      "steps": [
+        "In a large bowl, mix flour, paprika, garlic powder, ½ teaspoon salt and black pepper.",
+        "In a second plate, mix the eggs and milk, and in a third plate, mix the rusk and shredded cheddar cheese.",
+        "Heat a generous amount of oil in a saucepan over medium heat.",
+        "Put the chicken strips in a bowl, and season with the remaining amount of salt. ?",
+        "Dip the chicken strips, successively, in the flour mixture, egg mixture, and then the breadcrumbs mixture",
+        "Fry the chicken strips in hot oil until golden and crispy.",
+        "Remove the chicken fingers with cheese from the oil and place them on paper towels in a serving dish."
+      ],
+      "ingredients": [
+        "Chicken breast: 450 g (cut into strips)",
+        "Flour: a third of a cup",
+        "Paprika: three quarters of a teaspoon",
+        "Garlic powder: three quarters of a teaspoon",
+        "Salt: a teaspoon",
+        "Black pepper: a quarter of a teaspoon",
+        "Eggs: 2 pieces (medium size)",
+        "Milk: a tablespoon",
+        "rusk: a cup",
+        "Cheddar cheese: a cup (grated)"
+      ],
+      "name": "Chicken and cheese fingers",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/10/10f90fb1b3cb3059fde594cf78ece69b_w750_h500.jpg",
+      "category_id": 3,
+      "user_id": 3,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 17
+    },
+    {
+      "steps": [
+        "Wash the chicken breasts with water and flour, then rub them with lemon juice.",
+        "In a bowl, mix the yogurt, ginger, hot red pepper, coriander, salt, black pepper, tomato paste and oil.",
+        "Pour the marinade over the chicken and put it in the fridge overnight.",
+        "Preheat the oven to 180 degrees Celsius.",
+        "Arrange the chicken breasts in an oven tray lined with aluminum foil.",
+        "Put it in the oven for 60 minutes, until it is done.",
+        "Place them under the grill for about 5 minutes, until browned."
+      ],
+      "ingredients": [
+        "Chicken breast: kilo",
+        "Yogurt milk: a third of a cup",
+        "Ginger: 1 tablespoon (grated)",
+        "Hot red pepper: a tablespoon",
+        "Coriander: a tablespoon (grained / ground)",
+        "Salt: a teaspoon",
+        "Black pepper: half a teaspoon",
+        "Lemon juice: 2 tablespoons",
+        "Tomato paste: 2 tablespoons",
+        "Vegetable oil: 2 tablespoons"
+      ],
+      "name": "Chicken Tikka",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/59/59a4644c5c7735930139ceec7212062b_w750_h500.jpg",
+      "category_id": 3,
+      "user_id": 1,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 18
+    },
+    {
+      "steps": [
+        "Cut the chicken into 8 pieces.",
+        "Mix the yogurt, lemon juice, olive oil, and tomato paste in a bowl.",
+        "Add the crushed garlic, grated onion, mixed spices, black pepper, salt and stir.",
+        "Add the chicken pieces of the day, rub them with the mixture, cover the bowl and put them in the refrigerator for two hours.",
+        "Put the chicken of the day with the marinade in an oven tray and put the tray in the oven at a temperature of 200 degrees for 30 minutes, then reduce the heat to 190 and leave it for an hour until it is cooked.",
+        "Fry the face and serve hot with potatoes or vegetables, as desired."
+      ],
+      "ingredients": [
+        "Chicken: one chicken (today's chicken, 1200gm/cleaned)",
+        "Yogurt: a cup",
+        "Tomato paste: a tablespoon",
+        "Olive oil: 2 tablespoons",
+        "Lemon juice: a tablespoon",
+        "Garlic: cloves (crushed)",
+        "Onion: 1 piece (grated)",
+        "Salt: a teaspoon",
+        "Black pepper: half a teaspoon",
+        "Mixed spices: half a teaspoon"
+      ],
+      "name": "Chicken tray of the day with yogurt",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/14/14a247f1179e9fa203815ddcd2a9c5ab_w750_h500.jpg",
+      "category_id": 3,
+      "user_id": 5,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 19
+    },
+    {
+      "steps": [
+        "Preheat the oven to 200°C.",
+        "To prepare the béchamel sauce: Melt the butter, then add the flour and stir without stopping for about two minutes.",
+        "Slowly pour in the milk, stirring constantly, for about 10 minutes, until the sauce boils and thickens.",
+        "Season with salt and white pepper.",
+        "Place the shredded chicken and corn in a glass oven tray.",
+        "Pour the béchamel sauce over the ingredients and sprinkle the grated cheese on top.",
+        "Put the tray in the oven for about 35 minutes, until its face turns red, and serve hot."
+      ],
+      "ingredients": [
+        "Butter: 3 tablespoons",
+        "Flour: 3 tablespoons",
+        "Milk: 2 cups",
+        "Salt, to taste",
+        "White pepper: as desired",
+        "Chicken breast: 2 breasts (boiled and shredded)",
+        "Corn: half a cup",
+        "Edam cheese: a cup (grated)"
+      ],
+      "name": "Chicken tray with bechamel sauce",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/68/6818cff71569bdeefdddeab3c7af7fa9_w750_h500.jpg",
+      "category_id": 3,
+      "user_id": 7,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 20
+    },
+    {
+      "steps": [
+        "Season the ground chicken with salt and pepper on both sides.",
+        "Dip the chicken in the flour, then the egg, then the breadcrumbs until covered.",
+        "Fry the chicken until cooked and browned in oil, while reducing the fire a little so as not to burn.",
+        "Mix mayonnaise with mustard and lemon juice.",
+        "Grease the bread with the mixture, then put a piece of chicken on each bread and a lettuce slice, and serve hot alongside the French fries."
+      ],
+      "ingredients": [
+        "Chicken breast: 2 breasts (halved and crushed)",
+        "Salt: half a teaspoon",
+        "Black pepper: a quarter of a teaspoon",
+        "Flour: a cup",
+        "Eggs: 2 tablets (scrambled)",
+        "Rusks: a cup (crushed cakes)",
+        "Vegetable oil: 5 tablespoons",
+        "Bread: 4 loaves (sandwiches / French or burger bread)",
+        "Mayonnaise: 2 tablespoons",
+        "Lemon juice: 1 tablet",
+        "Lettuce: 4 slices",
+        "Mustard: a tablespoon"
+      ],
+      "name": "Chicken Scallop Sandwich",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/36/36511cc4b9d1d3f73475032efe6fce6f_w750_h500.jpg",
+      "category_id": 3,
+      "user_id": 9,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 21
+    },
+    {
+      "steps": [
+        "Preheat the oven to 200°C, put the bones on an oven tray and put them in the oven for 30 minutes.",
+        "Place the bones in a large pressure cooker over medium heat, add the thyme, carrots, onions, celery, garlic, bay leaf and apple cider vinegar, and cover with water.",
+        "Press the pot for 4 hours.",
+        "When the beep starts, reduce the heat and remove the lid.",
+        "Pour the soup into serving plates and serve hot."
+      ],
+      "ingredients": [
+        "Cow bones: 2 kg",
+        "Thyme: 1/4 cup (fresh)",
+        "Carrots: 2 tablets (chopped)",
+        "Onion: 1 piece (halved)",
+        "Celery: a quarter cup (chopped)",
+        "Garlic: 4 cloves",
+        "Bay leaf: 1 sheet",
+        "Apple cider vinegar: 2 tablespoons"
+      ],
+      "name": "Bone broth soup",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/5f/5f13d01e1dff5f19d667d2a29628517d_w750_h500.jpg",
+      "category_id": 2,
+      "user_id": 1,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 22
+    },
+    {
+      "steps": [
+        "Noodles: half a cup",
+        "Butter: a tablespoon",
+        "Vegetable oil: a tablespoon",
+        "Onion: 1 piece (small size / finely chopped)",
+        "Carrots: 2 tablets (grated)",
+        "Chicken broth: 5 cups",
+        "Turmeric: half a teaspoon (ground)",
+        "Salt: half a teaspoon",
+        "Black pepper: a quarter of a teaspoon"
+      ],
+      "ingredients": [
+        "Noodles: half a cup",
+        "Butter: a tablespoon",
+        "Vegetable oil: a tablespoon",
+        "Onion: 1 piece (small size / finely chopped)",
+        "Carrots: 2 tablets (grated)",
+        "Chicken broth: 5 cups",
+        "Turmeric: half a teaspoon (ground)",
+        "Salt: half a teaspoon",
+        "Black pepper: a quarter of a teaspoon"
+      ],
+      "name": "Vermicelli soup with carrots and turmeric",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/3d/3dac86e380f5269d118bfe70dd4fba61_w750_h500.jpg",
+      "category_id": 2,
+      "user_id": 4,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 23
+    },
+    {
+      "steps": [
+        "Heat the oil and butter in a saucepan.",
+        "Add the onions and carrots and stir-fry until softened, about 5 minutes.",
+        "Add the green beans, salt, ½ cup of chicken broth, and bring the mixture to a boil until the beans soften.",
+        "Add the pasta, red beans, black pepper and broth, reduce the heat and cover the pot.",
+        "Leave the soup on the fire for 20 minutes until the ingredients are tender.",
+        "Serve hot with a sprinkle of parsley, if desired."
+      ],
+      "ingredients": [
+        "Onion: 1 piece (finely chopped)",
+        "Vegetable oil: a tablespoon",
+        "Butter: a tablespoon",
+        "Macaroni: half a cup (shells)",
+        "Red kidney beans: three quarters of a cup (canned, washed and drained)",
+        "Green beans: 1 cup (frozen)",
+        "Chicken broth: 4 cups (or vegetables)",
+        "Salt: half a teaspoon",
+        "Black pepper: half a teaspoon"
+      ],
+      "name": "Bean noodle soup",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/b2/b21f8e217c89de1dbfe6181330ccf8c6_w750_h500.jpg",
+      "category_id": 2,
+      "user_id": 7,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 24
+    },
+    {
+      "steps": [
+        "Place the bread slices on a flat, smooth surface, and brush the first slice with cheese.",
+        "Fold the salmon slice to match the size of the bread slices.",
+        "Place a slice of cucumber and a slice of onion on top of the second slice of bread, then place it over the salmon so that the onion is facing up.",
+        "Put the last slice of bread as a last layer, secure the layers with a small wooden stick, and serve."
+      ],
+      "ingredients": [
+        "Toast bread: 4 slices (brown)",
+        "Cream cheese: 1 tablespoon (low-fat)",
+        "Smoked salmon: 2 slices",
+        "Cucumber: 1 piece (peeled and cut into rings)",
+        "Red onion: 1 piece (small size / sliced)"
+      ],
+      "name": "Diet smoked salmon sandwich",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/10/108fdcb10668ba87dd5719b2cfa4fd7c_w750_h500.jpg",
+      "category_id": 1,
+      "user_id": 2,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 25
+    },
+    {
+      "steps": [
+        "Rub the fish with coarse salt and put it in a bowl.",
+        "In a bowl, mix olive oil and lemon juice.",
+        "Season with black pepper and country herbs.",
+        "Mix the ingredients well until they overlap, then pour the mixture over the fish.",
+        "Cover the bowl and put it in the fridge for at least two hours before preparing."
+      ],
+      "ingredients": [
+        "Fish: 3 pieces",
+        "Olive oil: half a cup",
+        "Lemon juice: a quarter cup (sour)",
+        "Coarse salt: a tablespoon",
+        "Herbs: 1 teaspoon (rural)",
+        "Black pepper: half a teaspoon"
+      ],
+      "name": "Fish stuffed with herbs",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/82/82a97f45ab8b55d3c6ca1f0ec931d198_w750_h500.jpg",
+      "category_id": 1,
+      "user_id": 5,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 26
+    },
+    {
+      "steps": [
+        "Preheat the oven to 425 degrees.",
+        "Put the prawns and asparagus in the oven dish and spread the oil over it.",
+        "Mix lemon juice, salt, pepper, garlic and butter until well combined.",
+        "Pour the mixture over the prawns in the dish.",
+        "Put the dish in the oven for 15 minutes, until it is done.",
+        "His feet are hot."
+      ],
+      "ingredients": [
+        "Prawns: 500 grams (medium size / peeled and cleaned)",
+        "Vegetable oil: a tablespoon",
+        "Lemon juice: a quarter of a cup",
+        "Garlic: 3 cloves",
+        "Butter: 2 tablespoons",
+        "Salt: half a teaspoon",
+        "Black pepper: half a teaspoon",
+        "Asparagus: 200 gr"
+      ],
+      "name": "Prawns with asparagus and pepper",
+      "imageURL": "https://kitchen.sayidaty.net/uploads/small/35/3524b8cb86604dbcc9a0282128ceb74b_w750_h500.jpg",
+      "category_id": 1,
+      "user_id": 8,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Unde amet voluptatum numquam laborum nobis laboriosam obcaecati",
+      "id": 27
+    }
+  ]
+}
